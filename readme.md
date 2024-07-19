@@ -1,4 +1,4 @@
-# GitHub Actions Importer learning labs
+# GitHub Actions Importer learning labs.
 
 [GitHub Actions Importer](https://docs.github.com/en/actions/migrating-to-github-actions/automating-migration-with-github-actions-importer) helps plan, forecast, and automate the migration of Azure DevOps, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions. This repository contains learning paths that teach you how to use GitHub Actions Importer and how to approach migrations to Actions.
 
