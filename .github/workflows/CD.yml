@@ -1,0 +1,21 @@
+name: Continuous deployment
+on:
+  push:
+    branches : 
+      - main
+      
+jobs:
+  #Continuous Deployment job for development   
+  CD_MAIN:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: Prod     
+    steps:
+    # Checkout to repository
+    - name: Checkout to repository
+      uses: actions/checkout@v3
+
+    # Print status message
+    - name: Sanity check          
+      run: |
+        echo "Deployment into Prod is successful"
