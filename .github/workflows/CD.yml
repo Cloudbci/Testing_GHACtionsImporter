@@ -18,4 +18,4 @@ jobs:
     # Print status message
     - name: Sanity check          
       run: |
-        echo1 "Deployment into Prod is successful"
+        echo "Deployment into Prod is successful"
